@@ -10,16 +10,18 @@ export default function BuyingDetails({ navigation }) {
   return (
     <View style={globalStyles.container}>
       <Card>
-        <Text style={globalStyles.titleText}>
+        <Text style={globalStyles.titleText2}>
           {navigation.getParam("title")}
         </Text>
         <Text style={globalStyles.paragraph}>
           {navigation.getParam("description")}
         </Text>
-        <View style={styles.coverPhoto}>
-          <Image source={images.listings[listing]} />
-        </View>
+        <Text>{navigation.getParam("condition")}</Text>
+        <Text>{navigation.getParam("price")}</Text>
       </Card>
+      <View style={styles.coverPhoto}>
+        <Image source={images.listings[listing]} />
+      </View>
     </View>
   );
 }
@@ -29,8 +31,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     paddingTop: 16,
-    width: 20,
-    height: 20,
-    marginLeft: 50,
+    maxWidth: "50%",
+    height: "auto",
+    marginLeft: "auto",
+    marginRight: "auto",
   },
 });

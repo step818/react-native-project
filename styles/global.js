@@ -11,6 +11,11 @@ export const globalStyles = StyleSheet.create({
     fontSize: 18,
     color: "#b3daff",
   },
+  titleText2: {
+    fontFamily: "baloo2-bold",
+    fontSize: 18,
+    color: "#4d4d00",
+  },
   paragraph: {
     fontFamily: "baloo2-regular",
     marginVertical: 8,
@@ -51,5 +56,9 @@ export const images = {
   listings: {
     "1": require("../assets/keyboard.png"),
     "2": require("../assets/turquoiseNecklace.png"),
+    "3": require("../assets/headphones.png"),
+    "4": require("../assets/rubberduck.png"),
+    "5": require("../assets/pullOutCouch.png"),
+    "6": require("../assets/kettleBell.png"),
   },
 };

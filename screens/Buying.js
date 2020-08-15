@@ -29,6 +29,38 @@ export default function Buying({ navigation }) {
       coverPhoto: "2",
       key: "2",
     },
+    {
+      title: "Headphones",
+      description: "Noise cancelling, comfy.",
+      condition: "Fair",
+      price: "$35.00",
+      coverPhoto: "3",
+      key: "3",
+    },
+    {
+      title: "Rubber duck",
+      description: "Classic yellow rubber duck.",
+      condition: "Like new",
+      price: "$10.00",
+      coverPhoto: "4",
+      key: "4",
+    },
+    {
+      title: "Pull-out couch Blue",
+      description: "Blue, satin cushions. 7' x 3' x 2.5'",
+      condition: "Used, clean",
+      price: "$150.00",
+      coverPhoto: "5",
+      key: "5",
+    },
+    {
+      title: "25lb kettle bell",
+      description: "dark gray, weighs exactly 25lbs",
+      condition: "Like new",
+      price: "$80.00",
+      coverPhoto: "6",
+      key: "6",
+    },
   ]);
 
   return (
